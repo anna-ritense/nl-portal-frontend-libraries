@@ -1,6 +1,6 @@
 {
   "name": "@anna-ritense/portal-user-interface",
-  "version": "2.0.0-publish-ghrc-202507211534-f43cb733-SNAPSHOT",
+  "version": "2.0.0-publish-ghrc-202507211619-2f73cdbf-SNAPSHOT",
   "author": "Ritense",
   "license": "EUPL-1.2",
   "type": "module",
@@ -101,10 +101,10 @@
     "wait-on": "^8.0.3"
   },
   "peerDependencies": {
-    "@apollo/client": "3.13.5",
     "@anna-ritense/portal-api": "workspace:*",
     "@anna-ritense/portal-authentication": "workspace:*",
     "@anna-ritense/portal-localization": "workspace:*",
+    "@apollo/client": "3.13.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-intl": "^7.1.10",

@@ -2,6 +2,6 @@
   "packages": [
     "packages/*"
   ],
-  "version": "2.0.0-publish-ghrc-202507211534-f43cb733-SNAPSHOT",
+  "version": "2.0.0-publish-ghrc-202507211619-2f73cdbf-SNAPSHOT",
   "npmClient": "pnpm"
 }

@@ -71,12 +71,12 @@ importers:
 
   packages/api:
     dependencies:
-      '@apollo/client':
-        specifier: 3.13.5
-        version: 3.13.5(@types/react@19.1.4)(graphql-ws@5.16.2(graphql@16.10.0))(graphql@16.10.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@anna-ritense/portal-authentication':
         specifier: workspace:*
         version: link:../authentication
+      '@apollo/client':
+        specifier: 3.13.5
+        version: 3.13.5(@types/react@19.1.4)(graphql-ws@5.16.2(graphql@16.10.0))(graphql@16.10.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -126,18 +126,6 @@ importers:
 
   packages/app:
     dependencies:
-      '@gemeente-denhaag/design-tokens-components':
-        specifier: 3.1.0
-        version: 3.1.0
-      '@gemeente-denhaag/icons':
-        specifier: 3.0.2
-        version: 3.0.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@gemeente-denhaag/link':
-        specifier: 2.1.0
-        version: 2.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@gemeente-denhaag/typography':
-        specifier: 2.0.6
-        version: 2.0.6(@babel/runtime@7.26.7)(date-fns@2.30.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@anna-ritense/portal-api':
         specifier: workspace:*
         version: link:../api
@@ -150,6 +138,18 @@ importers:
       '@anna-ritense/portal-user-interface':
         specifier: workspace:*
         version: link:../user-interface
+      '@gemeente-denhaag/design-tokens-components':
+        specifier: 3.1.0
+        version: 3.1.0
+      '@gemeente-denhaag/icons':
+        specifier: 3.0.2
+        version: 3.0.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@gemeente-denhaag/link':
+        specifier: 2.1.0
+        version: 2.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@gemeente-denhaag/typography':
+        specifier: 2.0.6
+        version: 2.0.6(@babel/runtime@7.26.7)(date-fns@2.30.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -294,6 +294,15 @@ importers:
 
   packages/user-interface:
     dependencies:
+      '@anna-ritense/portal-api':
+        specifier: workspace:*
+        version: link:../api
+      '@anna-ritense/portal-authentication':
+        specifier: workspace:*
+        version: link:../authentication
+      '@anna-ritense/portal-localization':
+        specifier: workspace:*
+        version: link:../localization
       '@apollo/client':
         specifier: 3.13.5
         version: 3.13.5(@types/react@19.1.4)(graphql-ws@5.16.2(graphql@16.10.0))(graphql@16.10.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -417,15 +426,6 @@ importers:
       '@gemeente-denhaag/utils':
         specifier: 2.0.0
         version: 2.0.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@anna-ritense/portal-api':
-        specifier: workspace:*
-        version: link:../api
-      '@anna-ritense/portal-authentication':
-        specifier: workspace:*
-        version: link:../authentication
-      '@anna-ritense/portal-localization':
-        specifier: workspace:*
-        version: link:../localization
       '@react-hook/size':
         specifier: ^2.1.2
         version: 2.1.2(react@19.1.0)
