@@ -5,12 +5,12 @@ import { RouterOutletContext } from "../interfaces/router-outlet-context";
 import { FormattedMessage } from "react-intl";
 import { StatusBadge } from "@gemeente-denhaag/status-badge";
 import styles from "./Message.module.scss";
-import { Bericht } from "@nl-portal/nl-portal-api";
+import { Bericht } from "@anna-ritense/portal-api";
 import { useContext } from "react";
 import {
   LocaleContext,
   useActionLabels,
-} from "@nl-portal/nl-portal-localization";
+} from "@anna-ritense/portal-localization";
 
 interface Props {
   message: Bericht;

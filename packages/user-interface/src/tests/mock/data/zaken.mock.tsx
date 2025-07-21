@@ -1,4 +1,4 @@
-import { QUERY_GET_ZAKEN } from "@nl-portal/nl-portal-api";
+import { QUERY_GET_ZAKEN } from "@anna-ritense/portal-api";
 
 const getContent = (pageSize?: number, isOpen?: boolean) => {
   let arrayCases = [

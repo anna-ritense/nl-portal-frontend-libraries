@@ -1,4 +1,4 @@
-import { NavigationItem } from "@nl-portal/nl-portal-user-interface";
+import { NavigationItem } from "@anna-ritense/portal-user-interface";
 import {
   ArchiveIcon,
   CheckCircleIcon,

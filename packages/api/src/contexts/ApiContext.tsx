@@ -16,7 +16,7 @@ import {
 import {
   formatUrlTrailingSlash,
   OidcContext,
-} from "@nl-portal/nl-portal-authentication";
+} from "@anna-ritense/portal-authentication";
 import React from "react";
 import { defaultInMemoryCacheOptions } from "../constants/apollo-cache";
 

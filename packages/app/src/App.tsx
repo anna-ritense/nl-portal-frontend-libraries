@@ -1,15 +1,15 @@
 import "@gemeente-denhaag/design-tokens-components";
-import "@nl-portal/nl-portal-user-interface/index.css";
+import "@anna-ritense/portal-user-interface/index.css";
 import "./styles/nl-portal-design-tokens.css";
-import { OidcProvider } from "@nl-portal/nl-portal-authentication";
-import { LocalizationProvider } from "@nl-portal/nl-portal-localization";
-import { ApiProvider } from "@nl-portal/nl-portal-api";
+import { OidcProvider } from "@anna-ritense/portal-authentication";
+import { LocalizationProvider } from "@anna-ritense/portal-localization";
+import { ApiProvider } from "@anna-ritense/portal-api";
 import {
   Layout,
   MessagesProvider,
   NotificationProvider,
   useEnableMessagesCount,
-} from "@nl-portal/nl-portal-user-interface";
+} from "@anna-ritense/portal-user-interface";
 import { CUSTOM_MESSAGES } from "./i18n/custom-messages/custom-messages";
 import HeaderLogo from "./assets/header-logo.svg";
 import HeaderLogoSmall from "./assets/header-logo-small.svg";

@@ -5,7 +5,7 @@ import { Link } from "@gemeente-denhaag/link";
 import { ExternalLinkIcon } from "@gemeente-denhaag/icons";
 import ResponsiveContent from "@gemeente-denhaag/responsive-content";
 import classNames from "classnames";
-import { LocaleContext } from "@nl-portal/nl-portal-localization";
+import { LocaleContext } from "@anna-ritense/portal-localization";
 import { PortalFooter } from "../interfaces/portal-footer";
 import styles from "./Footer.module.scss";
 import Heading from "./Heading";

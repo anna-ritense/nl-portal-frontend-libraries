@@ -8,7 +8,7 @@ import {
   Zaak,
   useGetProductTakenQuery,
   useGetProductZakenQuery,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 
 interface Props {
   slug: string;

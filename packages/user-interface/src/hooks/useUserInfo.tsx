@@ -3,8 +3,8 @@ import {
   useGetBedrijfQuery,
   useGetGemachtigdeV2Query,
   useGetPersoonV2Query,
-} from "@nl-portal/nl-portal-api";
-import { OidcContext } from "@nl-portal/nl-portal-authentication";
+} from "@anna-ritense/portal-api";
+import { OidcContext } from "@anna-ritense/portal-authentication";
 import { getFullName } from "../utils/person-data";
 
 export const useUserInfo = () => {

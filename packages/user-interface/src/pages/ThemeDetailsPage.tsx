@@ -2,7 +2,7 @@ import { useIntl } from "react-intl";
 import PageGrid from "../components/PageGrid";
 import PageHeader from "../components/PageHeader";
 import BackLink from "../components/BackLink";
-import { TaakV2, Zaak } from "@nl-portal/nl-portal-api";
+import { TaakV2, Zaak } from "@anna-ritense/portal-api";
 import TasksList from "../components/TasksList";
 import CasesList from "../components/CasesList";
 import ActionsList from "../components/ActionsList";

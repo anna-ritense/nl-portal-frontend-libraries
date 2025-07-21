@@ -5,7 +5,7 @@ import Skeleton from "./Skeleton";
 import { Pagination } from "@gemeente-denhaag/pagination";
 import Message from "./Message";
 import Table from "./Table";
-import { Bericht } from "@nl-portal/nl-portal-api";
+import { Bericht } from "@anna-ritense/portal-api";
 import { listViewHeight } from "../constants/skeleton";
 
 interface Props {

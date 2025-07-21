@@ -14,7 +14,7 @@ export default defineConfig({
       formats: ["es"],
     },
     rollupOptions: {
-      external: ["react", "react-dom", "@nl-portal/nl-portal-authentication"],
+      external: ["react", "react-dom", "@anna-ritense/portal-authentication"],
       output: {
         entryFileNames: "[name].js",
         globals: {

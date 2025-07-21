@@ -1,4 +1,4 @@
-import { PortalFooter } from "@nl-portal/nl-portal-user-interface";
+import { PortalFooter } from "@anna-ritense/portal-user-interface";
 
 export const footerData: PortalFooter = [
   {

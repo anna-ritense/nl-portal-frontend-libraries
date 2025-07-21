@@ -1,4 +1,4 @@
-import { useGetUnopenedBerichtenCountQuery } from "@nl-portal/nl-portal-api";
+import { useGetUnopenedBerichtenCountQuery } from "@anna-ritense/portal-api";
 import { createContext, ReactNode, useState } from "react";
 
 interface MessagesContextType {

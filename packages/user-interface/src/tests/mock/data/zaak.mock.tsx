@@ -1,4 +1,4 @@
-import { QUERY_GET_ZAAK } from "@nl-portal/nl-portal-api";
+import { QUERY_GET_ZAAK } from "@anna-ritense/portal-api";
 
 export const getZaak = {
   request: {

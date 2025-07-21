@@ -1,6 +1,6 @@
 import { useOutletContext } from "react-router";
 import { RouterOutletContext } from "../interfaces/router-outlet-context";
-import { TaakSoort, TaakV2 } from "@nl-portal/nl-portal-api";
+import { TaakSoort, TaakV2 } from "@anna-ritense/portal-api";
 import { TaakKoppelingRegistratie } from "../interfaces/taak-koppeling-registratie";
 
 const useTaskUrl = (task: TaakV2, openInContext?: boolean) => {

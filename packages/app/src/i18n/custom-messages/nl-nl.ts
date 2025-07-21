@@ -1,4 +1,4 @@
-import { DEFAULT_LOCALES, Messages } from "@nl-portal/nl-portal-localization";
+import { DEFAULT_LOCALES, Messages } from "@anna-ritense/portal-localization";
 
 export const NL_NL_MESSAGES: Messages = {
   [DEFAULT_LOCALES.DUTCH]: {

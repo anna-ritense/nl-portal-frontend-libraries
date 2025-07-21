@@ -1,4 +1,4 @@
-import { QUERY_GET_TAKEN_V2 } from "@nl-portal/nl-portal-api";
+import { QUERY_GET_TAKEN_V2 } from "@anna-ritense/portal-api";
 
 const getContent = (size?: number) => {
   const arrayTasks = [

@@ -1,7 +1,7 @@
 import {
   ApiContext,
   Document as PortalDocument,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 import { Paragraph } from "@gemeente-denhaag/typography";
 import { useIntl } from "react-intl";
 import styles from "./DocumentsList.module.scss";

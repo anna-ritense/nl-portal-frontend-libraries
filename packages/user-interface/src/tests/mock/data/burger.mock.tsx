@@ -1,4 +1,4 @@
-import { QUERY_GET_BURGER_PROFIEL } from "@nl-portal/nl-portal-api";
+import { QUERY_GET_BURGER_PROFIEL } from "@anna-ritense/portal-api";
 
 export const getBurgerProfiel = {
   request: {

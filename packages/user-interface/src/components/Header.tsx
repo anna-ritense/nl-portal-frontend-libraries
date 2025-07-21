@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Fragment, ReactElement, useContext, useEffect, useState } from "react";
 import { useIntl } from "react-intl";
-import { LocaleContext } from "@nl-portal/nl-portal-localization";
+import { LocaleContext } from "@anna-ritense/portal-localization";
 import { Link, useNavigate } from "react-router";
 import classNames from "classnames";
 import useSize from "@react-hook/size";

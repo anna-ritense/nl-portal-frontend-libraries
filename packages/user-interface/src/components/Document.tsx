@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import prettyBytes from "pretty-bytes";
-import { LocaleContext } from "@nl-portal/nl-portal-localization";
-import { Document as PortalDocument } from "@nl-portal/nl-portal-api";
+import { LocaleContext } from "@anna-ritense/portal-localization";
+import { Document as PortalDocument } from "@anna-ritense/portal-api";
 import { File } from "@gemeente-denhaag/file";
 import useDownload from "../hooks/useDownload";
 

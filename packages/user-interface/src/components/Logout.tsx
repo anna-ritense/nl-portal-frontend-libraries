@@ -1,7 +1,7 @@
 import { Button } from "@gemeente-denhaag/button";
 import { FormattedMessage } from "react-intl";
 import MobileMenuButton from "./MobileMenuButton";
-import { useLogout } from "@nl-portal/nl-portal-authentication";
+import { useLogout } from "@anna-ritense/portal-authentication";
 
 interface LogoutProps {
   mobileMenu?: boolean;

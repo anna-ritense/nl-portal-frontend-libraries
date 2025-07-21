@@ -2,10 +2,10 @@ import {
   GenerateOgonePaymentMutationVariables,
   OgonePayment,
   useGenerateOgonePaymentMutation,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 import { useContext, useState } from "react";
 import OgonePaymentForm from "../components/OgonePaymentForm";
-import { LocaleContext } from "@nl-portal/nl-portal-localization";
+import { LocaleContext } from "@anna-ritense/portal-localization";
 import { Optional } from "../interfaces/optional";
 
 // amount, required, The amount to be paid (float).

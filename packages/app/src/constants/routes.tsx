@@ -9,8 +9,8 @@ import {
   TaskDetailsPage,
   MessagesPage,
   EditContactInfoPage,
-} from "@nl-portal/nl-portal-user-interface";
-import { OidcCallbackPage } from "@nl-portal/nl-portal-authentication";
+} from "@anna-ritense/portal-user-interface";
+import { OidcCallbackPage } from "@anna-ritense/portal-authentication";
 import { paths } from "./paths";
 import { config } from "./config";
 import { Navigate } from "react-router";

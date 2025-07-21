@@ -2,7 +2,7 @@ import { FormattedMessage } from "react-intl";
 import {
   useUserContactMutation,
   useUserContactQuery,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 import PageHeader from "../components/PageHeader";
 import useUserInfo from "../hooks/useUserInfo";
 import { REGEX_PATTERNS } from "../constants/regex-patterns";

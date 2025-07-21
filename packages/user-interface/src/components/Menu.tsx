@@ -2,7 +2,7 @@ import * as React from "react";
 import { useContext } from "react";
 import { Link, useMatches } from "react-router";
 import { FormattedMessage, useIntl } from "react-intl";
-import { LocaleContext } from "@nl-portal/nl-portal-localization";
+import { LocaleContext } from "@anna-ritense/portal-localization";
 import {
   Sidenav,
   SidenavItem,

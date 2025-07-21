@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { DescriptionList } from "@gemeente-denhaag/descriptionlist";
 import TableList from "./TableList";
 import SectionHeader from "./SectionHeader";
-import { useDateFormatter } from "@nl-portal/nl-portal-localization";
+import { useDateFormatter } from "@anna-ritense/portal-localization";
 
 interface Props {
   data: Details[];

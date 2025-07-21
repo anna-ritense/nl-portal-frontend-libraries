@@ -1,9 +1,9 @@
 import {
   ThemeOverviewPage,
   TableList,
-} from "@nl-portal/nl-portal-user-interface";
+} from "@anna-ritense/portal-user-interface";
 import { paths } from "../constants/paths";
-import { LinkList } from "@nl-portal/nl-portal-user-interface";
+import { LinkList } from "@anna-ritense/portal-user-interface";
 
 const ThemeSampleOverviewPage = () => {
   const slug = "sample";

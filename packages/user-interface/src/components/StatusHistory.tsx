@@ -1,5 +1,5 @@
 import { FC, Fragment } from "react";
-import { StatusType, ZaakStatus } from "@nl-portal/nl-portal-api";
+import { StatusType, ZaakStatus } from "@anna-ritense/portal-api";
 import { Paragraph } from "@gemeente-denhaag/typography";
 import { Status } from "@gemeente-denhaag/process-steps";
 import Skeleton from "react-loading-skeleton";

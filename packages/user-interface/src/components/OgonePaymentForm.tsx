@@ -1,4 +1,4 @@
-import { OgonePayment } from "@nl-portal/nl-portal-api";
+import { OgonePayment } from "@anna-ritense/portal-api";
 import { useEffect, useRef } from "react";
 
 const OgonePaymentForm = ({ formAction, formFields }: OgonePayment) => {

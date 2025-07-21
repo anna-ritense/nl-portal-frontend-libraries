@@ -1,4 +1,4 @@
-import { Bericht, useGetBerichtQuery } from "@nl-portal/nl-portal-api";
+import { Bericht, useGetBerichtQuery } from "@anna-ritense/portal-api";
 import { useOutletContext, useParams } from "react-router";
 import BackLink from "../components/BackLink";
 import PageGrid from "../components/PageGrid";

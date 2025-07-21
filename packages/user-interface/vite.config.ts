@@ -20,9 +20,9 @@ export default defineConfig({
         "react-intl",
         "react-router",
         "@apollo/client",
-        "@nl-portal/nl-portal-api",
-        "@nl-portal/nl-portal-authentication",
-        "@nl-portal/nl-portal-localization",
+        "@anna-ritense/portal-api",
+        "@anna-ritense/portal-authentication",
+        "@anna-ritense/portal-localization",
       ],
       output: {
         entryFileNames: "[name].js",

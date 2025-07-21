@@ -9,7 +9,7 @@ import {
   TaakVersion,
   useGetPortaalFormulierByIdV2Query,
   GetPortaalFormulierByIdV2Document,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 // TODO: Formio need this old version (4.7) of awesome font
 import "font-awesome/css/font-awesome.min.css";
 import { Alert } from "@gemeente-denhaag/alert";

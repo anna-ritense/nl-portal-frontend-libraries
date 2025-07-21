@@ -5,7 +5,7 @@ import {
   useGetBedrijfQuery,
   useGetPersoonV2Query,
   useUserContactQuery,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 import styles from "./AccountPage.module.scss";
 import {
   getNationalitiesString,
@@ -16,7 +16,7 @@ import PageHeader from "../components/PageHeader";
 import PageGrid from "../components/PageGrid";
 import Heading from "../components/Heading";
 import useUserInfo from "../hooks/useUserInfo";
-import { useDateFormatter } from "@nl-portal/nl-portal-localization";
+import { useDateFormatter } from "@anna-ritense/portal-localization";
 import { DescriptionList } from "@gemeente-denhaag/descriptionlist";
 import Link from "@gemeente-denhaag/link";
 import { EditIcon } from "@gemeente-denhaag/icons";

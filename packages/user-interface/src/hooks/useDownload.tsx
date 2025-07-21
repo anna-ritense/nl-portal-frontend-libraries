@@ -1,4 +1,4 @@
-import { OidcContext } from "@nl-portal/nl-portal-authentication";
+import { OidcContext } from "@anna-ritense/portal-authentication";
 import { useContext, useState } from "react";
 
 const useDownload = (href: string, filename?: string) => {

@@ -8,7 +8,7 @@ import {
   Zaak,
   useGetTakenV2Query,
   useGetZakenQuery,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 import TasksList from "../components/TasksList";
 import PageGrid from "../components/PageGrid";
 import { Paragraph } from "@gemeente-denhaag/typography";

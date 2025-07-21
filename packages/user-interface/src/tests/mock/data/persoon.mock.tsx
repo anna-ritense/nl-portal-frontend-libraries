@@ -1,4 +1,4 @@
-import { QUERY_GET_PERSOON_V2 } from "@nl-portal/nl-portal-api";
+import { QUERY_GET_PERSOON_V2 } from "@anna-ritense/portal-api";
 
 export const getPersoon = {
   request: {

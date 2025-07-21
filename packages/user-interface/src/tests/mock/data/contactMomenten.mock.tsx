@@ -1,4 +1,4 @@
-import { QUERY_GET_OBJECT_CONTACT_MOMENTEN } from "@nl-portal/nl-portal-api";
+import { QUERY_GET_OBJECT_CONTACT_MOMENTEN } from "@anna-ritense/portal-api";
 
 export const getObjectContactMomenten = {
   request: {

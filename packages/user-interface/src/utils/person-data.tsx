@@ -1,4 +1,4 @@
-import { BrpNaam, BrpNationaliteit } from "@nl-portal/nl-portal-api";
+import { BrpNaam, BrpNationaliteit } from "@anna-ritense/portal-api";
 
 const getNationalitiesString = (
   nationalities: Array<BrpNationaliteit> | undefined | null,

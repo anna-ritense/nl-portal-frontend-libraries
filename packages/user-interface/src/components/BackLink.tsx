@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { FormattedMessage } from "react-intl";
-import { LocaleContext } from "@nl-portal/nl-portal-localization";
+import { LocaleContext } from "@anna-ritense/portal-localization";
 import { Link } from "@gemeente-denhaag/link";
 import { ChevronLeftIcon } from "@gemeente-denhaag/icons";
 import styles from "./BackLink.module.scss";

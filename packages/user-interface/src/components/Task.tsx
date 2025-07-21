@@ -1,4 +1,4 @@
-import { TaakSoort, TaakV2 } from "@nl-portal/nl-portal-api";
+import { TaakSoort, TaakV2 } from "@anna-ritense/portal-api";
 import PortalLink from "./PortalLink";
 import { ActionMulti, ActionSingle } from "@gemeente-denhaag/action";
 import useTaskUrl from "../hooks/useTaskUrl";
@@ -11,7 +11,7 @@ import { FormattedMessage } from "react-intl";
 import {
   LocaleContext,
   useActionLabels,
-} from "@nl-portal/nl-portal-localization";
+} from "@anna-ritense/portal-localization";
 import { useContext } from "react";
 
 interface Props {

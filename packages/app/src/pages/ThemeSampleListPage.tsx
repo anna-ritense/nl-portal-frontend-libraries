@@ -1,5 +1,5 @@
 import { paths } from "../constants/paths";
-import { TableList, ThemeSubPage } from "@nl-portal/nl-portal-user-interface";
+import { TableList, ThemeSubPage } from "@anna-ritense/portal-user-interface";
 import { Paragraph } from "@gemeente-denhaag/typography";
 import { Link } from "@gemeente-denhaag/link";
 import { ExternalLinkIcon } from "@gemeente-denhaag/icons";

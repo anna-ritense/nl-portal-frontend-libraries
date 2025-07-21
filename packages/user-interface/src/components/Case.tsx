@@ -1,5 +1,5 @@
 import { useIntl } from "react-intl";
-import { Zaak } from "@nl-portal/nl-portal-api";
+import { Zaak } from "@anna-ritense/portal-api";
 import { CaseCard } from "@gemeente-denhaag/card";
 import PortalLink from "./PortalLink";
 import { useOutletContext } from "react-router";

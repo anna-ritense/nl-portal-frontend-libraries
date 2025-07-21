@@ -1,4 +1,4 @@
-import { Paths } from "@nl-portal/nl-portal-user-interface";
+import { Paths } from "@anna-ritense/portal-user-interface";
 
 export const paths: Paths = {
   noMatch: "/pagina-niet-gevonden",

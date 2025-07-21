@@ -19,7 +19,7 @@ import PageMetaData from "./PageMetaData";
 import { Paths } from "../interfaces/paths";
 import { NavigationItem } from "../interfaces/navigation-item";
 import { LayoutProvider } from "../contexts/LayoutContext";
-import { OidcContext } from "@nl-portal/nl-portal-authentication";
+import { OidcContext } from "@anna-ritense/portal-authentication";
 
 interface LayoutComponentProps {
   navigationItems: NavigationItem[][];

@@ -1,5 +1,5 @@
 import { FormattedMessage } from "react-intl";
-import { TaakV2, useGetTakenV2Query } from "@nl-portal/nl-portal-api";
+import { TaakV2, useGetTakenV2Query } from "@anna-ritense/portal-api";
 import TasksList from "../components/TasksList";
 import PageHeader from "../components/PageHeader";
 import PageGrid from "../components/PageGrid";

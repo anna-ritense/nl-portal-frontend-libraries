@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import {
   LocalizationProvider,
   MockWrapper,
-} from "@nl-portal/nl-portal-localization";
+} from "@anna-ritense/portal-localization";
 import { MockedProvider, MockedResponse } from "@apollo/client/testing";
 import {
   createMemoryRouter,

@@ -6,11 +6,11 @@ import {
   TaakV2,
   ContactMoment,
   ZaakStatus,
-} from "@nl-portal/nl-portal-api";
+} from "@anna-ritense/portal-api";
 import {
   LocaleContext,
   useDateFormatter,
-} from "@nl-portal/nl-portal-localization";
+} from "@anna-ritense/portal-localization";
 import { Paragraph } from "@gemeente-denhaag/typography";
 import { FormattedMessage, useIntl } from "react-intl";
 import { useParams } from "react-router";

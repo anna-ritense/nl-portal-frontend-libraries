@@ -2,7 +2,7 @@ import { useIntl } from "react-intl";
 import PageGrid from "../components/PageGrid";
 import PageHeader from "../components/PageHeader";
 import MessagesList from "../components/MessagesList";
-import { Bericht, useGetBerichtenQuery } from "@nl-portal/nl-portal-api";
+import { Bericht, useGetBerichtenQuery } from "@anna-ritense/portal-api";
 import SearchForm from "../components/SearchForm";
 
 const MessagesPage = () => {

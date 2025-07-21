@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LocaleContext } from "@nl-portal/nl-portal-localization";
+import { LocaleContext } from "@anna-ritense/portal-localization";
 import { Link } from "react-router";
 import classNames from "classnames";
 import { FormattedMessage } from "react-intl";

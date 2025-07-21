@@ -3,7 +3,7 @@ import {
   ThemeDetailsPage,
   TableList,
   DescriptionList,
-} from "@nl-portal/nl-portal-user-interface";
+} from "@anna-ritense/portal-user-interface";
 
 const ThemeSampleDetailPage = () => {
   const slug = "sample";
